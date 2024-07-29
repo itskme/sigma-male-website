@@ -3,8 +3,32 @@
     src: url(copper.ttf);
 }
 
+.CARD {
+    font-variant-caps: petite-caps;
+    font-family: 'copper', Courier, monospace;
+    size: 1920px 1080px;
+    background-color: rgb(247, 248, 238);
+}
+
 .name {
     text-align: center;
-    font-family: 'copper', Courier, monospace;
     line-height: 0.8px;
+    float: none;
+   padding-top: 160px;
+}
+
+.number {
+text-align: left;
+float: left;
+}
+
+.contact {
+padding-top: 100px;
+text-align: center;
+}
+
+.company {
+    text-align: right;
+    line-height: 0.8px;
+    float: right;
 }
