@@ -6,29 +6,46 @@
 .CARD {
     font-variant-caps: petite-caps;
     font-family: 'copper', Courier, monospace;
-    size: 1920px 1080px;
     background-color: rgb(247, 248, 238);
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px rgb(172, 168, 168) solid;
+    aspect-ratio: 3.5 / 2;
+    opacity: 80%;
 }
 
 .name {
     text-align: center;
     line-height: 0.8px;
     float: none;
-   padding-top: 160px;
+    padding-top: 23%;
+    font-size: 35px;
+    font-size: 2.57vw;
 }
 
 .number {
 text-align: left;
 float: left;
+padding: 40px;
+    padding: 3.9vw;
+font-size: 20px;
+font-size: 1.7vw;
 }
 
 .contact {
-padding-top: 100px;
 text-align: center;
+vertical-align: bottom;
+padding-top: 8%;
+font-size: 20px;
+font-size: 1.7vw;
 }
 
 .company {
-    text-align: right;
+    text-align: center;
     line-height: 0.8px;
     float: right;
+    padding: 40px;
+    padding: 3.9vw;
+    font-size: 20px;
+    font-size: 1.7vw;
 }
