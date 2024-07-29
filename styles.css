@@ -1,7 +1,17 @@
 @font-face {
     font-family: 'Copper';
     src: url(copper.ttf);
+    font-style: normal;
+    font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Futura-heavy';
+    src: url(futura-heavy.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+    
 
 .CARD {
     font-variant-caps: petite-caps;
@@ -9,9 +19,10 @@
     background-color: rgb(247, 248, 238);
     margin-left: auto;
     margin-right: auto;
-    border: 6px rgb(172, 168, 168) solid;
+    border: 0px rgb(172, 168, 168) solid;
     aspect-ratio: 3.5 / 2;
     opacity: 80%;
+    rotate: .4 1 .30 50deg;
 }
 
 .name {
@@ -24,20 +35,21 @@
 }
 
 .number {
-text-align: left;
-float: left;
-padding: 40px;
+    text-align: left;
+    float: left;
+    padding: 40px;
     padding: 3.9vw;
-font-size: 20px;
-font-size: 1.7vw;
+    font-size: 20px;
+    font-size: 1.7vw;
 }
 
 .contact {
-text-align: center;
-vertical-align: bottom;
-padding-top: 8%;
-font-size: 20px;
-font-size: 1.7vw;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 20px;
+    font-size: 1.7vw;
+    padding: 30px;
+    padding-top: 8%;
 }
 
 .company {
@@ -48,4 +60,22 @@ font-size: 1.7vw;
     padding: 3.9vw;
     font-size: 20px;
     font-size: 1.7vw;
+}
+
+.main-title {
+    rotate: .2 1 0 40deg;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Futura-heavy', Courier, monospace;
+    font-size: 60px;
+    text-shadow: 1px 1px 0px black, 0 0 25px rgb(255, 0, 0), 0 0 5px rgb(177, 72, 72);
+}
+
+body {
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
