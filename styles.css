@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Copper';
+    src: url(copper.ttf);
+}
+
+.name {
+    text-align: center;
+    font-family: 'copper', Courier, monospace;
+    line-height: 0.8px;
+}
